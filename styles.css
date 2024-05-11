@@ -1,0 +1,63 @@
+#cover-page {
+    background-color: #CDE8E5;
+}
+
+.container-row-center {
+    display: flex;
+    justify-content: center;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.title-color {
+    color: #7AB2B2;
+}
+
+.computer-container {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nelson {
+    font-family: "Sacramento", cursive;
+    font-size: 4rem;
+    color: #4D869C;
+}
+
+.profession {
+    font-size: 2rem;
+    color: #4D869C;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.guitar-container {
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+}
+
+.guitar-container img {
+    max-width: 100%;
+}
+
+.nelson-photo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nelson-photo {
+    border-radius: 50%;
+}
