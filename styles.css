@@ -15,6 +15,12 @@
     color: #7AB2B2;
 }
 
+.professional-info-justify p, .professional-info-justify ul {
+    text-align: justify;
+}
+
+/* --------------------------- */
+
 .computer-container {
     /* background-color: aquamarine; */
     display: flex;
@@ -53,11 +59,15 @@ span {
     max-width: 100%;
 }
 
-.nelson-photo-container {
-    display: flex;
-    justify-content: center;
-}
-
 .nelson-photo {
     border-radius: 50%;
+    max-width: 100%;
+}
+
+.nelson-photo-col-container {
+    border-right: 1px solid #3f9d9d;
+}
+
+#get-in-touch, #footer {
+    background-color: #EEF7FF;
 }
