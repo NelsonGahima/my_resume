@@ -21,6 +21,9 @@
     text-align: justify;
 }
 
+.computer-container, .guitar-container {
+    opacity: 0.5;
+}
 /* --------------------------- */
 
 .computer-container {
