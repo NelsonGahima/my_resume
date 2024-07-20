@@ -24,6 +24,20 @@
 .computer-container, .guitar-container {
     opacity: 0.2;
 }
+
+.coding-img, .music-img {
+    animation: 5s linear 1s 1 alternate slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+}
+
 /* --------------------------- */
 
 .computer-container {
