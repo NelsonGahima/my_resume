@@ -21,7 +21,7 @@
     text-align: justify;
 }
 
-.coding-container, .guitar-container {
+.coding-container, .music-container {
     opacity: 0.2;
 }
 
@@ -74,19 +74,19 @@
 .profession {
     font-size: 2rem;
     color: #4D869C;
-}
+  }
+  
 
 span {
     text-decoration: underline;
 }
 
-.guitar-container {
-    /* background-color: bisque; */
+.music-container {
     display: flex;
     justify-content: center;
 }
 
-.guitar-container img {
+.music-container img {
     max-width: 100%;
 }
 
@@ -105,4 +105,9 @@ span {
 
 .btn:hover {
     box-shadow: 0 0 15px rgb(79, 126, 228);  
+}
+
+.nav-item:hover {
+    size: 50px;
+    filter: drop-shadow(0 0 20px rgb(131, 129, 129));
 }
