@@ -1,6 +1,7 @@
 #cover-page {
     background-color: #CDE8E5;
-    background-image: linear-gradient(to right, #4D869C, #B0D3E5);
+    background: linear-gradient(270deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+    animation: gradientAnimation 10s ease infinite;
 }
 
 .container-row-center {
