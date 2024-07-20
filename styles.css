@@ -25,16 +25,29 @@
     opacity: 0.2;
 }
 
-.coding-img, .music-img {
-    animation: 5s linear 1s 1 alternate slidein;
+.coding-img {
+    animation: 3s linear 1s 1 alternate slideRight;
   }
 
-  @keyframes slidein {
+  @keyframes slideRight {
     from {
       transform: translateX(-35%);
     }
     to {
       transform: translateX(0%);
+    }
+}
+
+.music-img {
+    animation: 3s linear 1s 1 alternate slideDown;
+  }
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(-35%);
+    }
+    to {
+      transform: translateY(0%);
     }
 }
 
