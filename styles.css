@@ -71,3 +71,7 @@ span {
 #get-in-touch, #footer {
     background-color: #EEF7FF;
 }
+
+.btn:hover {
+    box-shadow: 0 0 15px rgb(79, 126, 228);  
+}
